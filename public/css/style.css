@@ -19,7 +19,7 @@
   background-color: #e9ecef;
 }
 .contact-top i {
-  color: #7235d4;
+  color: #357fd4;
   font-weight: 600;
 }
 
@@ -31,7 +31,7 @@
 
 .navbar {
   color: #fff;
-  background: #7235d4;
+  background: #357fd4;
   padding: 1rem 0 !important;
 }
 .navbar li {
@@ -65,7 +65,7 @@
 
 .hero {
   position: relative;
-  background: url(/public/images/zeuni-2.jpg);
+  background: url(/public/images/doctor-1.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -73,7 +73,7 @@
 }
 
 .introduction {
-  background: rgba(114, 53, 212, 0.8);
+  background: rgba(53, 127, 212, 0.8);
   margin-top: 10rem;
 }
 @media (min-width: 768px) {
@@ -89,7 +89,7 @@
 .header {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #7235d4, #dc3545), url("/images/bg/muriungi.dev-homepage-intro.svg");
+  background: linear-gradient(to right, #357fd4, #dc3545), url("/images/bg/muriungi.dev-homepage-intro.svg");
   background-size: cover;
   background-position: center;
   padding: 2rem 0 2rem 0;
@@ -110,7 +110,7 @@
 }
 
 .section-1 {
-  background: linear-gradient(to right, rgba(114, 53, 212, 0.9), rgba(114, 53, 212, 0.9)), url("/images/about-2.jpg");
+  background: linear-gradient(to right, rgba(53, 127, 212, 0.9), rgba(53, 127, 212, 0.9)), url("/images/about-2.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -156,7 +156,7 @@
   transition: all 0.3s;
 }
 .navbar:link, .navbar:visited, .navbar:active {
-  color: #7235d4;
+  color: #357fd4;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -314,7 +314,7 @@
   object-fit: cover;
 }
 .studies .card-footer {
-  background-color: #7235d4;
+  background-color: #357fd4;
 }
 .studies .card-footer small {
   color: #fff !important;
@@ -327,12 +327,12 @@
   transition: all 0.3s;
 }
 .studies:hover .card {
-  background-color: rgba(114, 53, 212, 0.75);
+  background-color: rgba(53, 127, 212, 0.75);
   transition: all 0.3s;
 }
 
 .nav-tabs {
-  background-color: #7235d4;
+  background-color: #357fd4;
 }
 
 .features-2 {
@@ -365,7 +365,7 @@
 .showcase-wrapper img:hover {
   transform: scale(1.05);
   transition: all 0.3s;
-  outline-offset: 1.5rem solid #7235d4;
+  outline-offset: 1.5rem solid #357fd4;
 }
 
 .showcase-about {
@@ -375,7 +375,7 @@
 
 .showcase-icon {
   font-size: 3rem;
-  color: #7235d4;
+  color: #357fd4;
   padding-left: 0.8rem;
 }
 
@@ -398,7 +398,7 @@
 .intro h3 {
   margin: 0;
   display: block;
-  background-color: #7235d4;
+  background-color: #357fd4;
   padding: 1rem;
 }
 .intro a {
@@ -426,7 +426,7 @@ img {
   width: 100%;
   top: 0;
   transition: transform 300ms;
-  background-color: rgba(114, 53, 212, 0.5);
+  background-color: rgba(53, 127, 212, 0.5);
   transform: translate3d(0, calc(100% - 3.5rem), 0);
 }
 
@@ -469,13 +469,13 @@ img {
 }
 .about .icon-boxes .icon-box i {
   font-size: 2.5rem;
-  color: #7235d4;
+  color: #357fd4;
 }
 
 .client {
   width: 100%;
   height: 100%;
-  background: #7235d4;
+  background: #357fd4;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -483,7 +483,7 @@ img {
   position: relative;
 }
 .client .quote-icon {
-  color: #cab3ef;
+  color: #b3cfef;
 }
 .client .quote-icon svg {
   width: 10rem;
@@ -506,7 +506,7 @@ img {
 .client__t-card .client-img img {
   width: 80px;
   height: 80px;
-  border: 3px solid #7235d4;
+  border: 3px solid #357fd4;
 }
 .client__t-card .name {
   margin-top: 3rem;
@@ -580,10 +580,10 @@ img {
   text-decoration: none;
 }
 .footer .footer-center a:hover {
-  color: #7235d4;
+  color: #357fd4;
 }
 .footer .footer-sm a {
-  color: #7235d4;
+  color: #357fd4;
 }
 .footer .footer-sm a i {
   font-size: 1.5rem;
@@ -608,7 +608,7 @@ img {
 }
 .f-list > li a:hover {
   padding-bottom: 4rem;
-  color: #7235d4;
+  color: #357fd4;
   transform: skewY(10deg) skewX(5deg) scale(1.1);
   transition: all 0.3s;
 }
@@ -621,7 +621,7 @@ img {
   color: #ced4da;
 }
 .footer-bottom__copyright a {
-  color: #7235d4;
+  color: #357fd4;
   transition: all 0.3s ease;
   text-decoration: none;
 }
@@ -639,7 +639,7 @@ img {
   }
 }
 .footer-bottom__legalstuff a {
-  color: #7235d4;
+  color: #357fd4;
   transition: all 0.3s ease;
   text-decoration: none;
 }
