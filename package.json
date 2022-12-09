@@ -1,16 +1,16 @@
 {
-  "name": "ZE-University",
+  "name": "Clinico",
   "version": "1.0.0",
-  "description": "ZE-University is a free template appropriate for adventures and expedition websites",
+  "description": "Clinico is a free template appropriate for clinic and hospital websites",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:public/css"
   },
   "keywords": [
     "Patrick-muriungi",
-    "university template",
-    "college",
-    "university",
+    "clinic template",
+    "hospital",
+    "clinic",
     "free template"
   ],
   "author": "Patrick Muriungi",

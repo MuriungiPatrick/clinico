@@ -3,7 +3,7 @@
 # clinico
  a clean, modern and responsive template supremely crafted for clinic and hospital websites
 
-It’s built on the Bootstrap 5.2 framework. it is a one page template comprising of all the latest features with a template compatible with all modern browsers and devices With a clean design, this fitness template is ready to impress your audience.
+It’s built on the Bootstrap 5.2 framework. it is a one page template comprising of all the latest features with a template compatible with all modern browsers and devices With a clean design, this clinico template is ready to impress your audience.
 
 ### Features
 
