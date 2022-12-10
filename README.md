@@ -56,5 +56,5 @@ If you find this template useful and you'd like to extend the template like cust
 
 ### Template screenshot 
 
-![ze-university-fullx800](https://user-images.githubusercontent.com/11283502/206114124-2b293358-75bc-4712-9c7c-5ca2bcb4b311.jpg)
+
 
