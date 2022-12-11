@@ -1,5 +1,8 @@
 ###### Release ```Dec-09, 2022.```
 
+![clinico-website](https://user-images.githubusercontent.com/11283502/206905957-37d049f7-5760-4560-a4e1-135bf908769a.png)
+
+
 # Clinico
  A clean, modern and responsive template supremely crafted for clinic and hospital websites.
 
@@ -55,6 +58,9 @@ You're free to keep or remove the attribution link (Created By Patrick Muriungi)
 If you find this template useful and you'd like to extend the template like customizing and adding more pages to the template for your specific needs, am here and I can customize the template for $25 only.
 
 ### Template screenshot 
+
+![clinico-website](https://user-images.githubusercontent.com/11283502/206905899-d643c929-f7b1-4171-a3de-ecc5f6937653.jpg)
+
 
 
 
