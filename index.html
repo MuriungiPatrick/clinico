@@ -20,17 +20,19 @@
       <nav class="van">
        
       </nav>
-<nav class="navbar navbar-expand-lg bg-dark">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Clinico</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Schedule</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Doctors</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
             <span class="navbar-text">
               <button class="btn btn-outline-light">
@@ -51,7 +53,7 @@
         <!-- START COLUMN 1 -->
       <div class="col-12 col-md-6 col-lg-8">       
         <div class="introduction p-4 text-white">
-          <h3 class="fw-bold">Welcome to Ze clinico</h3>
+          <h3 class="fw-bold">Welcome to the clinico</h3>
           <hr class="bg-white mb-4 mt-2 d-inline-block mx-auto" style="width: 100px; height:3px">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
@@ -311,22 +313,23 @@
                 </div>             
           </div>
         </div>     
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card shadow studies">
+              <img src="public/images/doctor-5.jpg" class="img-fluid" 
+                alt="cardiology"/>                   
+                <div class="card-body text-center">
+                <h4>outpatient clinic</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  repellendus modi nesciunt, rerum ullam debitis magnam 
+                  </p>
+                </div>             
+          </div>
+        </div>     
       </div>
     </div>
     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
       <div class="row text-center mt-3 mb-5">
-        <div class="col-lg-3 col-md-4 col-sm-12">
-          <div class="doctor">
-            <a href="#" aria-labelledby="person1"></a>
-            <img src='public/images/doctor-5.jpg' alt='our doctor'>
-            <div class="doctor__overlay">
-              <h5>Dr. Nyikal Mwanzia</h5>
-              <div class="doctor__body">
-               <p>Cardiologist</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         <div class="col-lg-3 col-md-4 col-sm-12">
           <div class="doctor">
             <a href="#" aria-labelledby="person1"></a>
@@ -334,7 +337,7 @@
             <div class="doctor__overlay">
               <h5>Dr. Pauline Njoroge</h5>
               <div class="doctor__body">
-               <p>Gynocologist</p>
+               <p>Gynaecologist</p>
               </div>
             </div>
           </div>
@@ -354,11 +357,23 @@
         <div class="col-lg-3 col-md-4 col-sm-12">
           <div class="doctor">
             <a href="#" aria-labelledby="person1"></a>
+            <img src='public/images/doctor-5.jpg' alt='our doctor'>
+            <div class="doctor__overlay">
+              <h5>Dr. Charlene Ruto</h5>
+              <div class="doctor__body">
+               <p>Cardiologist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="doctor">
+            <a href="#" aria-labelledby="person1"></a>
             <img src='public/images/doctor-2.jpg' alt='our doctor'>
             <div class="doctor__overlay">
-              <h5>Dr. Suzzana Mshamba</h5>
+              <h5>Dr. Ondieki Mshamba</h5>
               <div class="doctor__body">
-               <p>Padetrician</p>
+               <p>paediatrician</p>
               </div>
             </div>
           </div>
@@ -368,14 +383,33 @@
     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
       <div class="row text-center mt-3 mb-5">
         <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="card shadow studies">
-            <a href="#Link">
-            <img src="public/images/zeuni-1.jpg" class="img-fluid" 
-            alt="computer science"/>                   
-            <div class="card-body text-center">
-            <h5>Our pricing </h5>
-            </div>             
-            </a>
+          <div class="awards">
+            <a href="#" aria-labelledby="person1"></a>
+            <img src='public/images/award-1.jpg' alt='our awards'>
+            <div class="awards__overlay">
+              <div class="awards__body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, tempora optio?
+                  <h5><i class="bi bi-box-arrow-in-up-right"></i></h5>
+               </p>
+               <button class="btn btn-light">learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="awards">
+            <a href="#" aria-labelledby="person1"></a>
+            <img src='public/images/award-2.png' alt='our awards'>
+            <div class="awards__overlay">
+              <div class="awards__body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, tempora optio?
+                </p>
+                <h5><i class="bi bi-box-arrow-in-up-right"></i></h5>
+               <button class="btn btn-light">learn more</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -748,7 +782,7 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
                         </div>
                         <div class="info">           
                             <h5 class="title">Email</h5>
-                            <p class="sub-title">info@ze.clinico</p>
+                            <p class="sub-title">info@clinico.hospital</p>
                         </div>
                     </div>
                 </div>
@@ -797,20 +831,20 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
       <!-- Content -->
       <h5 class="text-capitalize font-weight-bold">Clinico</h5>
       <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
-      <p class="text-left">We are an premier clinico offering internationally recognised studies
+      <p class="text-left">We are an premier clinico offering internationally services 
         Here you can use rows and columns to organize your footer content. Loremsit amet, consectetur adipisicing elit.</p>   
     </div>
     <!-- Grid column -->
     <!-- Grid column -->
     <div class="col-12 col-sm-6 col-lg-2 mb-4">
       <!-- Links -->
-      <h5 class="text-capitalize font-weight-bold">Study Programs</h5>
+      <h5 class="text-capitalize font-weight-bold">Services</h5>
       <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
       <ul class="list-inline f-list">
-        <li><a href="#">MBA programs.</a></li>
-        <li><a href="#">Degree programs.</a></li>
-        <li><a href="#">Diploma programs.</a></li>
-      <li><a href="#">Certificate programs</a></li>
+        <li><a href="#">outpatient.</a></li>
+        <li><a href="#">dentistry.</a></li>
+        <li><a href="#">gynacologist.</a></li>
+      <li><a href="#">cardiologist</a></li>
       </ul>
     </div>
     <!-- Grid column -->
@@ -823,22 +857,19 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
       <ul class="list-inline f-list">
       <li><a href="#">Your Account</a></li>
       <li><a href="#">Apply Online</a></li>
-      <li><a href="#">Fee Structure</a></li>
-      <li><a href="#">Around the Campus</a></li>
-      <li><a href="#">Orientation</a></li>
+      <li><a href="#">charges</a></li>
     </div>
     <!-- Grid column -->
 
     <!-- Grid column -->
     <div class="col-12 col-sm-6 col-lg-2 mx-auto mb-4"><!-- Links -->
-      <h5 class="text-capitalize font-weight-bold">Campus</h5>
+      <h5 class="text-capitalize font-weight-bold">Clinic</h5>
       <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
       <ul class="list-inline f-list">
-      <li><a href="#">Student portal</a></li>
-      <li><a href="#">Join clubs</a></li>
-      <li><a href="#">Campus Gallery</a></li>
-      <li><a href="#">campus map</a></li>
-      <li><a href="#">Graduation</a></li>
+      <li><a href="#">Outpatient</a></li>
+      <li><a href="#">NHIF</a></li>
+      <li><a href="#">Maternity</a></li>
+
       </ul>
     </div><!-- Grid column -->
   </div><!-- Grid row -->
@@ -852,8 +883,8 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="row text-center">
                 <div class="col-lg-6 col-md-6 col-sm-12 text-start">
                     <div class="footer-bottom__copyright">
-                        &copy; Copyright 2022 <a href="index.html">ZE clinico</a> |
-                        Created by <a href="http://www.vaxacode.com">Muriungi</a>
+                        &copy; Copyright 2022 <a href="index.html">Clinico</a> |
+                        Created by <a href="http://codingpatrick.netlify.app">Muriungi</a>
                     </div> 
                 </div>            
                 <div class="col-lg-6 col-md-6 col-sm-12 text-end">

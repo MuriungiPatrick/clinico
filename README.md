@@ -1,7 +1,7 @@
 ###### Release ```Dec-09, 2022.```
 
-# clinico
- a clean, modern and responsive template supremely crafted for clinic and hospital websites
+# Clinico
+ A clean, modern and responsive template supremely crafted for clinic and hospital websites.
 
 It’s built on the Bootstrap 5.2 framework. it is a one page template comprising of all the latest features with a template compatible with all modern browsers and devices With a clean design, this clinico template is ready to impress your audience.
 
@@ -45,7 +45,7 @@ You can use this template to make a website for your clients and get paid. but D
 
 #### Buy me coffee
 
-Better still feel free to buy me a coffee ($10) if you’d like to show your appreciation for the hard work. Although any amount you feel like contributing is, of course, highly appreciated! 
+Better still feel free to [Buy me a coffee ($10)](https://www.buymeacoffee.com/muriungipatrick) if you’d like to show your appreciation for the hard work. Although any amount you feel like contributing is, of course, highly appreciated! 
 [Buy me Coffee](https://www.buymeacoffee.com/muriungipatrick)
 
 #### Attribution Link
