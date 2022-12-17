@@ -7,7 +7,7 @@
 
 
 # Clinico
- A clean, modern and responsive Template supremely crafted for clinic and hospital websites.
+ A clean, modern and responsive Template supremely crafted for medical and health websites.
 
 It’s built on the Bootstrap v5+ framework. it is a one page template comprising of all the latest features with a template compatible with all modern browsers and devices With a clean design, this clinico template is ready to impress your audience.
 

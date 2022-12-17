@@ -50,8 +50,10 @@
 <section class="hero">
   <div class="container">
     <div class="row">          
-        <!-- START COLUMN 1 -->
-      <div class="col-12 col-md-6 col-lg-8">       
+      <div class="col-12 col-md-6 col-lg-8 col-sm-12">
+        <div class="doctors-intro">
+          <img class="img-fluid" src="public/images/doctor-5.jpg" alt="Vaxa code youtube channel">
+        </div>
         <div class="introduction p-4 text-white">
           <h3 class="fw-bold">Welcome to the clinico</h3>
           <hr class="bg-white mb-4 mt-2 d-inline-block mx-auto" style="width: 100px; height:3px">
@@ -62,33 +64,41 @@
             doloribus dicta voluptates, dignissimos nisi praesentium commodi quam mollitia.
           </p>
           <a href="#" class="btn btn-outline-light">Learn more <i class="bi bi-arrow-right"></i> </a>            
-        </div>                                     
-        </div>
-
-      <!-- START COLUMN 2 -->
-      <div class="col-12 col-md-6 col-lg-4">                    
-        <div class="date-with-doc w-100 p-3 shadow">     
-          <button type="button" class="btn btn-primary p-3 mb-2 w-100" data-bs-toggle="modal" 
-          data-bs-target="#exampleModal-1">
-            <i class="bi bi-file-medical"></i>
-           Make an Appointment
-          </button>   
-          <button type="button" class="btn btn-primary p-3 mb-2 w-100" data-bs-toggle="modal" 
-          data-bs-target="#exampleModal-1">
-            <i class="bi bi-telephone-plus-fill"></i>
-            Call Emergency 
-          </button>   
-          <button type="button" class="btn btn-warning p-3 mb-2 w-100" data-bs-toggle="modal" 
-          data-bs-target="#exampleModal-1">
-            
-              <h3><i class="bi bi-clock-history"></i> Working Hours</h3>
-              <ul class="listinfo__appointment">
-                <li>Monday - Friday</li>
-                <li>6:00am - 12:00am EAT</li>
-              </ul>
-          </button>                 
-          </div>                                       
+        </div>      
       </div>
+    
+     <!-- START COLUMN 2 -->
+     <div class="col-12 col-md-6 col-lg-4">                    
+      <div class="date-with-doc w-100 p-3 shadow">    
+        <button type="button" class="btn btn-primary p-3 mb-2 w-100" data-bs-toggle="modal" 
+        data-bs-target="#exampleModal-1">
+          <i class="bi bi-file-medical"></i>
+         Make an Appointment
+        </button>   
+        <button type="button" class="btn btn-primary p-3 mb-2 w-100" data-bs-toggle="modal" 
+        data-bs-target="#exampleModal-1">
+          <i class="bi bi-telephone-plus-fill"></i>
+          Call Emergency 
+        </button>   
+        <button type="button" class="btn btn-warning p-3 mb-2 w-100" data-bs-toggle="modal" 
+        data-bs-target="#exampleModal-1">        
+            <h3><i class="bi bi-clock-history"></i> Working Hours</h3>
+            <ul class="listinfo__appointment">
+              <li>Monday - Friday</li>
+              <li>6:00am - 12:00am EAT</li>
+            </ul>
+        </button>                 
+        <button type="button" class="btn btn-primary p-3 mb-2 w-100">        
+            <h4><i class="bi bi-hospital"></i> Our Branches</h3>
+            <ul class="listinfo__branches">
+              <li>Coptic Center Ngong road</li>
+              <li>st John - Githurai</li>
+              <li>Tinga Hs, Kisumu</li>
+              <li>Mugithi Hs, Kiambu Town</li>
+            </ul>
+        </button>                 
+        </div>                                       
+    </div>
     </div>
   </div>
   <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -113,24 +123,7 @@
                 <div class="col-md-6">
               <input type="email"  required placeholder="Email Address" class="form-control shadow">              
                 </div>
-              <div class="col-md-12">
-                <select class="form-select" required aria-label="Default select example">
-                  <option selected>Country</option>
-                  <option value="1">Angola </option>
-                  <option value="1">Algeria</option>
-                  <option value="1">Belgium </option>
-                  <option value="1">Bukinafaso</option>
-                  <option value="1">Congo </option>
-                  <option value="1">Libya</option>
-                  <option value="1">Nigeria</option>
-                  <option value="1">Niger</option>
-                  <option value="1">Russia </option>
-                  <option value="1">Rwanda</option>
-                  <option value="1">South Africa</option>
-                  <option value="1">Tanzania</option>
-                  <option value="1">Uganda</option>            
-                </select>
-              </div>
+            
              
             <div class="col-12">
               <select class="form-select" required aria-label="Default select example">
@@ -141,26 +134,39 @@
                 <option value="3">none</option>
               </select>
             </div>
+            <div class="col-12">
+              <textarea name="message" id="message" placeholder="message" 
+              cols="30" rows="10" class="w-100 form-control shadow">
+              </textarea>
+            </div>
          
          
-                    <!-- start the submit button textarea -->    
+    <!-- start the submit button textarea -->    
              <div class="col-6 pt-4">
               <div class="btn-group">
                 <button class="btn btn-primary text-white" type="submit">
                   Book Now <i class="bi bi-send-check" title="submit"></i>
-                    </button> 
-                
+                    </button>              
                   </div>     
                   </div>
                 </form>  
-            </div>
+              </div>
               <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>         
+            <button type="button" class="btn btn-secondary" 
+            data-bs-dismiss="modal">Close</button>         
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- <section class="hero-ntop">
+  <div class="container">
+    <div class="row">
+     
+    </div>
+  </div>
+</section> -->
 
 
 <!--------------------------------------------------------------------------------------------
@@ -679,7 +685,7 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
           </div>
         </div>
       <div class="row justify-content-center">
-      <div class="col-12 col-lg-10 col-md-12 p-4">
+      <div class="col-12 col-lg-10 col-md-1 p-4">
           <div class="accordion" id="accordionExample">
           <div class="accordion-item shadow">
             <h2 class="accordion-header" id="headingOne">
