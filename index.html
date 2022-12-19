@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- START NAVBAR SECTION  -->
-    <header class="contact-top">
+<header class="contact-top">
       <nav class="van">
        
       </nav>
@@ -35,7 +35,7 @@
               <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
             <span class="navbar-text">
-              <button class="btn btn-outline-light">
+              <button class="btn btn-light">
                <i class="bi bi-prescription"></i> appointment
               </button>
             </span>
@@ -44,64 +44,138 @@
   </nav>
 </header>
 
-
-    
-    <!-- START SECTION  1-->     
 <section class="hero">
   <div class="container">
-    <div class="row">          
-      <div class="col-12 col-md-6 col-lg-8 col-sm-12">
-        <div class="doctors-intro">
-          <img class="img-fluid" src="public/images/doctor-5.jpg" alt="Vaxa code youtube channel">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="doc-image">
+                <img src="public/images/hero-doctor.png" class="w-100 img-fluid" alt="doctor male">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">                    
+                <div class="date-with-doc w-100 p-3">    
+                  <h3 class="display-3 fw-bold">
+                    Welcome to Clinico
+                  </h3>  
+                  <hr class="bg-white mb-4 mt-2 d-inline-block mx-auto" style="width: 100px; height:3px">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
+                    ratione quasi! Magnam quaerat voluptatum ipsa, adipisci ad, 
+                    exercitationem facilis consectetur numquam provident reiciendis 
+                    doloribus dicta voluptates, dignissimos nisi praesentium commodi quam mollitia.
+                  </p>
+                  <a href="#" class="btn btn-primary">Learn More 
+                    <i class="bi bi-arrow-right"></i> 
+                  </a>                                            
+                </div>                                       
+            </div>     
+          </div>
         </div>
-        <div class="introduction p-4 text-white">
-          <h3 class="fw-bold">Welcome to the clinico</h3>
-          <hr class="bg-white mb-4 mt-2 d-inline-block mx-auto" style="width: 100px; height:3px">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
-            ratione quasi! Magnam quaerat voluptatum ipsa, adipisci ad, 
-            exercitationem facilis consectetur numquam provident reiciendis 
-            doloribus dicta voluptates, dignissimos nisi praesentium commodi quam mollitia.
-          </p>
-          <a href="#" class="btn btn-outline-light">Learn more <i class="bi bi-arrow-right"></i> </a>            
-        </div>      
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="row">
+            <div class="col-12 col-lg-6 col-md-6">
+             <div class="doc-image">
+              <img src="public/images/doctors.png" class="w-100 img-fluid" alt="...">
+             </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">                    
+              <div class="date-with-doc w-100 p-3">    
+                <h3 class="display-3 fw-bold">
+                  Expert Physicians 
+                </h3>  
+                <hr class="bg-white mb-4 mt-2 d-inline-block mx-auto" style="width: 100px; height:3px">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
+                  ratione quasi! Magnam quaerat voluptatum ipsa, adipisci ad, 
+                  exercitationem facilis consectetur numquam provident reiciendis 
+                  doloribus dicta voluptates, dignissimos nisi praesentium commodi quam mollitia.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More 
+                  <i class="bi bi-arrow-right"></i> 
+                </a>                                            
+              </div>                                       
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+              <div class="col-12 col-lg-6 col-md-6">
+                <div class="doc-image">
+                  <img src="public/images/doctor-male.png" class="w-100 img-fluid" alt="...">
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6">                    
+                <div class="date-with-doc w-100 p-3">    
+                  <h3 class="display-3 fw-bold">
+                    another section to add content
+                  </h3>  
+                  <hr class="bg-white mb-4 mt-2 d-inline-block mx-auto" style="width: 100px; height:3px">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
+                    ratione quasi! Magnam quaerat voluptatum ipsa, adipisci ad, 
+                    exercitationem facilis consectetur numquam provident reiciendis 
+                    doloribus dicta voluptates, dignissimos nisi praesentium commodi quam mollitia.
+                  </p>
+                  <a href="#" class="btn btn-primary">Learn More 
+                    <i class="bi bi-arrow-right"></i> 
+                  </a>                                            
+                </div>                                      
+              </div>
+            </div>
+        </div>
       </div>
-    
-     <!-- START COLUMN 2 -->
-     <div class="col-12 col-md-6 col-lg-4">                    
-      <div class="date-with-doc w-100 p-3 shadow">    
-        <button type="button" class="btn btn-primary p-3 mb-2 w-100" data-bs-toggle="modal" 
-        data-bs-target="#exampleModal-1">
-          <i class="bi bi-file-medical"></i>
-         Make an Appointment
-        </button>   
-        <button type="button" class="btn btn-primary p-3 mb-2 w-100" data-bs-toggle="modal" 
-        data-bs-target="#exampleModal-1">
-          <i class="bi bi-telephone-plus-fill"></i>
-          Call Emergency 
-        </button>   
-        <button type="button" class="btn btn-warning p-3 mb-2 w-100" data-bs-toggle="modal" 
-        data-bs-target="#exampleModal-1">        
-            <h3><i class="bi bi-clock-history"></i> Working Hours</h3>
-            <ul class="listinfo__appointment">
-              <li>Monday - Friday</li>
-              <li>6:00am - 12:00am EAT</li>
-            </ul>
-        </button>                 
-        <button type="button" class="btn btn-primary p-3 mb-2 w-100">        
-            <h4><i class="bi bi-hospital"></i> Our Branches</h3>
-            <ul class="listinfo__branches">
-              <li>Coptic Center Ngong road</li>
-              <li>st John - Githurai</li>
-              <li>Tinga Hs, Kisumu</li>
-              <li>Mugithi Hs, Kiambu Town</li>
-            </ul>
-        </button>                 
-        </div>                                       
-    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
-  <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+</section>
+    
+    <!-- START SECTION  1-->     
+<section class="hero-ntop">
+  <div class="container">
+    <div class="bg-gray">
+        <div class="row p-3">          
+          <div class="col-lg-4 col-md-6 mb-2 col-sm-12">
+            <div class="content w-100 p-2 shadow">
+              <button type="button" class="btn btn-primary p-3 mb-2 w-100" data-bs-toggle="modal" 
+              data-bs-target="#exampleModal-1">
+              <h6><i class="bi bi-file-medical"></i></h6>
+              <p>Make an Appointment</p>
+             </button>      
+            </div>      
+          </div>
+          <div class="col-lg-4 col-md-4 mb-2 col-sm-12">
+            <div class="content w-100 p-2 shadow">
+              <button type="button" class="btn btn-primary p-3 mb-2 w-100" data-bs-toggle="modal" 
+                  data-bs-target="#exampleModal-1">
+                  <h6> <i class="bi bi-telephone-plus-fill"></i> </h6>           
+                <p>  Call Emergency</p>
+              </button>     
+            </div>
+          </div>
+         <div class="col-lg-4 col-md-4 mb-2 col-sm-12">                    
+            <div class="content w-100 p-2 shadow">        
+              <button type="button" class="btn btn-warning p-3 mb-2 w-100" 
+                data-bs-toggle="modal" data-bs-target="#exampleModal-1">        
+                <h6><i class="bi bi-clock-history"></i> Working Hours</h6>
+                  <p> Mon - Fri (6am - 12am EAT)</p>
+              </button>                                
+            </div>                                       
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal-1" 
+  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header bg-primary text-white">
@@ -156,8 +230,7 @@
             data-bs-dismiss="modal">Close</button>         
         </div>
       </div>
-    </div>
-  </div>
+    </div> </div>
 </section>
 
 <!-- <section class="hero-ntop">
@@ -237,7 +310,6 @@
           <p class="lh-lg p-3">learn more about our services</p> 
     </div>
   </div>
-
  <div class="row">
   <div class="col-12">
     <ul class="nav nav-tabs shadow bg-secondary" id="myTab" role="tablist">
@@ -249,10 +321,7 @@
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Awards</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="fees-tab" data-bs-toggle="tab" data-bs-target="#fees" type="button" role="tab" aria-controls="contact" aria-selected="false">Fee </button>
-      </li>
+      </li> 
     </ul>
   </div>
  </div>
@@ -275,12 +344,12 @@
           <div class="card shadow studies">
               <img src="public/images/doctor-reception.jpg" class="img-fluid" 
                 alt="cardiology"/>                   
-                <div class="card-body text-center">
-                <h4>Cardiology</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  repellendus modi nesciunt, rerum ullam debitis magnam 
+              <div class="card-body text-center">
+                  <h4>Cardiology</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    repellendus modi nesciunt, rerum ullam debitis magnam 
                   </p>
-                </div>             
+              </div>             
           </div>
         </div>     
         <div class="col-lg-4 col-md-4 col-sm-12">
@@ -288,10 +357,10 @@
               <img src="public/images/chair-2584260__340.jpg" class="img-fluid" 
                 alt="cardiology"/>                   
                 <div class="card-body text-center">
-                <h4>Laboratory</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  repellendus modi nesciunt, rerum ullam debitis magnam 
-                  </p>
+                  <h4>Laboratory</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    repellendus modi nesciunt, rerum ullam debitis magnam 
+                    </p>
                 </div>             
           </div>
         </div>     
@@ -304,7 +373,7 @@
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                   repellendus modi nesciunt, rerum ullam debitis magnam 
                   </p>
-                </div>             
+              </div>             
           </div>
         </div>     
         <div class="col-lg-4 col-md-4 col-sm-12">
@@ -315,8 +384,8 @@
                 <h4>radiology</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                   repellendus modi nesciunt, rerum ullam debitis magnam 
-                  </p>
-                </div>             
+                </p>
+            </div>             
           </div>
         </div>     
         <div class="col-lg-4 col-md-4 col-sm-12">
@@ -328,14 +397,13 @@
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                   repellendus modi nesciunt, rerum ullam debitis magnam 
                   </p>
-                </div>             
+              </div>             
           </div>
         </div>     
       </div>
     </div>
     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-      <div class="row text-center mt-3 mb-5">
-        
+      <div class="row text-center mt-3 mb-5">      
         <div class="col-lg-3 col-md-4 col-sm-12">
           <div class="doctor">
             <a href="#" aria-labelledby="person1"></a>
@@ -416,78 +484,11 @@
                <button class="btn btn-light">learn more</button>
               </div>
             </div>
-          </div>
-        </div>
+           </div>
+         </div>
+       </div>
       </div>
     </div>
-    <div class="tab-pane fade" id="fees" role="tabpanel" aria-labelledby="fees-tab">
-         <!-- START SECTION  5-->
-<section class="section-5 pt-4 pb-5" id="pricing">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col">
-        <p class="lh-1 lead">Suitable and affordable fee structure plans</p> 
-      </div>
-    </div>
-
-    <div class="row mt-5 align-items-center no-gutters">
-      <!-- START BASIC COLUMN -->
-      <div class="col-md-12 col-lg-12 mb-3">
-        <div class="pricing bg-white rounded-lg shadow">
-          <table class="table table-bordered table">
-            <tbody>
-            <tr>
-             <thead>
-              <td colspan="2"><strong>PROGRAM NAME</strong></td>
-              <td colspan="2"><strong>FEES Per SEMESTER(KSH )</strong></td>
-              <td colspan="2"><strong>NO of SEMESTER</strong></td>
-             </thead>
-            </tr>
-            <tr>
-              <td colspan="2">MBA </td>
-              <td colspan="2">
-                <ul class="listinfo__list">
-                  <li>72,000/=</li>
-                </ul>
-              </td>
-              <td colspan="2">4 </td>
-            </tr>
-            <tr>
-              <td colspan="2">Degree Programs</td>
-              <td>
-                <ul class="listinfo__list">
-                  <li>60,650</li>
-                </ul>
-              </td>
-              <td colspan="2">8 </td>
-            </tr>
-            <tr>
-              <td colspan="2">Diploma Programs</td>
-              <td>
-                <ul class="listinfo__list">
-                  <li>30,650</li>
-                </ul>
-              </td>
-              <td colspan="2">4 </td>
-            </tr>
-            <tr>
-              <td colspan="2">Certificate Programs</td>
-              <td>
-                <ul class="listinfo__list">
-                  <li>29,650</li>
-                </ul>
-              </td>
-              <td colspan="2">2</td>
-            </tr>
-            </tbody>
-          </table>
-          </div>         
-        </div>
-        </div>
-      </div>
-</section>
-    </div>
-  </div>
   </div>
 </section>
    
@@ -674,81 +675,116 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
     <!-- START SECTION  7-->
    
     <!-- START SECTION  8-->
-    <section class="section-4" id="video">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12">
+<section class="section-4" id="video">
+  <div class="container">
+    <div class="row text-center">
+        <div class="col-12">
             <h3 class="display-3 fw-bold">FAQ
               <i class="bi bi-question-circle-fill"></i></h3>
             <hr class="bg-white mb-4 mt-0 d-inline-block mx-auto" style="width: 100px; height:3px">
             <p class="p-text">Frequently asked questions</p> 
-          </div>
         </div>
-      <div class="row justify-content-center">
-      <div class="col-12 col-lg-10 col-md-1 p-4">
-          <div class="accordion" id="accordionExample">
-          <div class="accordion-item shadow">
-            <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              How do I make an appointment
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo, 
-              unde cum quod eos nostrum quam fuga placeat provident accusamus, 
-              hic tempora officiis cumque sapiente quis. Fugiat molestias quis impedit.
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <!-- ==================================
+      START THE 1ST COLUMN  COL-MD-7
+      ======================================-->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item shadow mt-3">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 do you offer discounts
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo, 
+                  unde cum quod eos nostrum quam fuga placeat provident accusamus, 
+                  hic tempora officiis cumque sapiente quis. Fugiat molestias quis impedit.
+                </div>
+              </div>
+            </div>
+          <div class="accordion-item shadow mt-3">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How long will the free trial last?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Repellendus ut ea praesentium itaque? Quaerat tenetur beatae debitis repellat ipsa, sed dolor,
+                 nemo quasi, repudiandae ducimus perferendis doloribus. 
+                Suscipit tenetur repellendus eveniet fugit, id animi quo. Dolor nesciunt hic voluptate rerum?
+              </div>
+            </div>
+          </div>
+          
+          <div class="accordion-item shadow mt-3">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                do I have to pay again after trial
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Repellendus ut ea praesentium itaque? Quaerat tenetur beatae debitis repellat ipsa, sed dolor,
+                nemo quasi, repudiandae ducimus perferendis doloribus. 
+                Suscipit tenetur repellendus eveniet fugit, id animi quo. Dolor nesciunt hic voluptate rerum?
+              </div>
             </div>
           </div>
         </div>
-      <div class="accordion-item shadow">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            How long will the fitness last?
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus ut ea praesentium itaque? Quaerat tenetur beatae debitis repellat ipsa, sed dolor,
-            nemo quasi, repudiandae ducimus perferendis doloribus. 
-            Suscipit tenetur repellendus eveniet fugit, id animi quo. Dolor nesciunt hic voluptate rerum?
-          </div>
-        </div>
       </div>
-      
-      <div class="accordion-item shadow">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            do i have to pay the labolatory fee
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus ut ea praesentium itaque? Quaerat tenetur beatae debitis repellat ipsa, sed dolor,
-            nemo quasi, repudiandae ducimus perferendis doloribus. 
-            Suscipit tenetur repellendus eveniet fugit, id animi quo. Dolor nesciunt hic voluptate rerum?
-          </div>
-        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item shadow mt-3">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  How can I create an Account
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ea, dolorum a deserunt quia provident placeat debitis, exercitationem recusandae esse, necessitatibus repellendus odit animi fuga quas? Consectetur, laudantium.
+                </div>
+              </div>
+            </div>
+                <div class="accordion-item shadow mt-3">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Can I be refunded if am not satisfied
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis inventore quos aspernatur libero quisquam soluta officia reprehenderit, ducimus cumque laudantium, voluptates natus totam, iure quod expedita? Natus labore sint veniam nulla laboriosam?
+                      </p>
+                  </div>
+                </div>
+              </div>
+                <div class="accordion-item shadow mt-3">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Do you offer delivery services?
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>
+                        Yes we do. ducimus cumque laudantium, voluptates natus totam, iure quod expedita? Natus labore sint veniam nulla laboriosam?
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
       </div>
-      <div class="accordion-item shadow">
-        <h2 class="accordion-header" id="headingFour">
-          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-           Do you perform pregrancy test
-          </button>
-        </h2>
-        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus ut ea praesentium itaque? Quaerat tenetur beatae debitis repellat ipsa, sed dolor,
-            nemo quasi, repudiandae ducimus perferendis doloribus. 
-            Suscipit tenetur repellendus eveniet fugit, id animi quo. Dolor nesciunt hic voluptate rerum?
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
   </div>
 </section>
 

@@ -60,7 +60,7 @@ You're free to keep or remove the attribution link (Created By Patrick Muriungi)
 #### Note
 If you find this template useful and you'd like to extend the template like customizing and adding more pages to the template for your specific needs, am here and I can customize the template for $25 only.
 
-### Template screenshot 
+### Template Screenshot 
 
 ![clinico-website](https://user-images.githubusercontent.com/11283502/206905899-d643c929-f7b1-4171-a3de-ecc5f6937653.jpg)
 

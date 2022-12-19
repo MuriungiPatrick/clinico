@@ -43,23 +43,23 @@
   background-color: #e9ecef;
 }
 .contact-top i {
-  color: #fff;
+  color: #212529;
   font-weight: 600;
 }
 
 .navbar {
-  color: #fff;
+  color: #212529;
   background: #3CE2f9;
   padding: 1rem 0 !important;
 }
 .navbar .navbar-brand {
-  color: #fff;
+  color: #212529;
   font-weight: 600;
   text-transform: uppercase;
 }
 .navbar li {
   padding: 0 0.6rem;
-  color: #fff;
+  color: #212529;
 }
 .navbar li a {
   text-decoration: none;
@@ -70,14 +70,14 @@
   animation: moveInBottom 0.5s ease-out 0.5s;
   font-family: "Oxygen", sans-serif;
   font-weight: 600;
-  color: #fff !important;
+  color: #212529 !important;
 }
 .navbar li a:hover {
-  color: #212529 !important;
+  color: #fff !important;
   transform: translateY(8px);
   transition: all 0.3s;
-  border: 1px solid #212529;
-  padding: 0.5rem 0;
+  border: 1px solid #fff;
+  padding: 0.5rem;
 }
 
 .navigation-tabs {
@@ -92,9 +92,30 @@
 
 .hero {
   position: relative;
+  background-color: #B9F7F9;
   height: 100%;
   margin-bottom: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
+}
+.hero .doc-image {
+  width: 100%;
+  height: 100%;
+}
+.hero .doc-image img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .hero .doc-image img {
+    width: 100%;
+    height: 35rem;
+  }
+}
+.hero .doc-image img:hover {
+  transform: scale(1.02);
+  transition-duration: 1s;
+  transition-property: all;
 }
 .hero .introduction {
   position: relative;
@@ -124,13 +145,15 @@
   transition-property: all;
 }
 .hero .date-with-doc {
-  background: rgba(255, 255, 255, 0.8);
-  margin-top: 0rem;
+  margin-top: 1rem;
 }
 @media (min-width: 768px) {
   .hero .date-with-doc {
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
+}
+.hero .date-with-doc a {
+  margin-bottom: 6rem;
 }
 .hero .date-with-doc button {
   font-weight: 600;
@@ -141,12 +164,25 @@
 
 .hero-ntop {
   position: relative;
-  height: 100%;
-  margin-bottom: 2rem;
-  padding-bottom: 5rem;
+  margin-top: -8rem;
+  padding: 2rem 0;
 }
-.hero-ntop :is(h2, h3) {
-  color: #fff;
+.hero-ntop .bg-gray {
+  background-color: #e9ecef;
+  border-radius: 0.8rem;
+}
+.hero-ntop .content {
+  position: relative;
+  padding: 2rem 0;
+  border-radius: 1rem;
+  align-items: center;
+}
+.hero-ntop .content :is(h4, h5, h6) {
+  color: #212529;
+  font-weight: 600;
+}
+.hero-ntop .content i {
+  color: #212529;
 }
 
 /*-----------------------------------------------------------------------------
@@ -365,8 +401,8 @@
 ---------------------------------------------------------------------------------------------
 **/
 .services {
-  background-color: #B9F7F9;
-  margin-top: 3rem;
+  background-color: #f8f9fa;
+  margin-top: 2rem;
 }
 
 .studies {
@@ -407,7 +443,6 @@
 .nav-tabs {
   border: none;
   color: #fff;
-  background: #3CE2f9;
   border-radius: 0;
 }
 .nav-tabs .nav-item {
@@ -730,7 +765,6 @@ img {
 }
 
 .carousel-item i {
-  font-size: 1.6rem;
   color: rgba(33, 37, 41, 0.6);
 }
 
