@@ -3,13 +3,14 @@
 ## [Live Preview](https://muriungipatrick.github.io/clinico)
 
  
-![clinico-website](https://user-images.githubusercontent.com/11283502/206905957-37d049f7-5760-4560-a4e1-135bf908769a.png)
+![clinico-website](https://user-images.githubusercontent.com/11283502/208450298-ec64ffab-8061-46cd-8705-f8c241ca8f36.png)
+
 
 
 # Clinico
  A clean, modern and responsive Template supremely crafted for medical and health websites.
 
-It’s built on the Bootstrap v5+ framework. it is a one page template comprising of all the latest features with a template compatible with all modern browsers and devices With a clean design, this clinico template is ready to impress your audience.
+It’s built on the Bootstrap 5 framework. it is a one page template comprising of all the latest features with a template compatible with all modern browsers and devices with a clean design, this clinico template is ready to impress your audience.
 
 ### Features
 
@@ -62,7 +63,8 @@ If you find this template useful and you'd like to extend the template like cust
 
 ### Template Screenshot 
 
-![clinico-website](https://user-images.githubusercontent.com/11283502/206905899-d643c929-f7b1-4171-a3de-ecc5f6937653.jpg)
+![Web capture_19-12-2022_145156_127 0 0 1](https://user-images.githubusercontent.com/11283502/208451282-f941e5bc-0bee-4846-9096-958a23a03405.jpeg)
+
 
 
 
